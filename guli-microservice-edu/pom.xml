@@ -11,8 +11,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>guli-microservice-edu</artifactId>
-
     <dependencies>
+
+        <!--服务注册-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.guli</groupId>

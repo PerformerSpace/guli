@@ -70,6 +70,13 @@ public class R {
         this.data.put(key,value);
         return this;
     }
+    public static R setResult(ResultCodeEnum resultCodeEnum){
+        R r = new R();
+        r.setSuccess(resultCodeEnum.getSuccess());
+        r.setCode(resultCodeEnum.getCode());
+        r.setMessage(resultCodeEnum.getMessage());
+        return r;
+    }
 
 
 

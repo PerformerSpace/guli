@@ -6,9 +6,15 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/guli-framework-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-commonservice-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/guli-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-sysuser/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-vod/pom.xml" />
       </list>
     </option>
   </component>
@@ -158,4 +164,5 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

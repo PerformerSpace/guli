@@ -1,6 +1,8 @@
 package com.guli.edu.controller.admin;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.guli.common.constants.ResultCodeEnum;
+import com.guli.common.exception.GuliException;
 import com.guli.common.vo.R;
 import com.guli.edu.entity.Teacher;
 import com.guli.edu.query.TeacherQuery;
@@ -62,6 +64,9 @@ public class TeacherAdminController {
     public R pageList(@PathVariable Long page,
                       @PathVariable Long limit,
                       TeacherQuery teacherQuery){
+        if (page<=0 || limit<=0){
+            throw new GuliException(ResultCodeEnum.PARAM_ERROR);
+        }
         Page<Teacher> teacherPage = new Page<>(page,limit);
         teacherService.pageQuery(teacherPage,teacherQuery);
         List<Teacher> records = teacherPage.getRecords();
@@ -89,7 +94,7 @@ public class TeacherAdminController {
     }
 
     @ApiOperation(value = "根据ID修改讲师")
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "id",value = "讲师ID",required = true,paramType = "path"),
             @ApiImplicitParam(name = "teacher",value = "讲师对象",required = true)

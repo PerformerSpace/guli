@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/guli.iml" filepath="$PROJECT_DIR$/.idea/guli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-commonservice-eureka/guli-commonservice-eureka.iml" filepath="$PROJECT_DIR$/guli-commonservice-eureka/guli-commonservice-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/guli-framework-common/guli-framework-common.iml" filepath="$PROJECT_DIR$/guli-framework-common/guli-framework-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/guli-framework-parent/guli-framework-parent.iml" filepath="$PROJECT_DIR$/guli-framework-parent/guli-framework-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/guli-microservice-edu/guli-microservice-edu.iml" filepath="$PROJECT_DIR$/guli-microservice-edu/guli-microservice-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-microservice-oss/guli-microservice-oss.iml" filepath="$PROJECT_DIR$/guli-microservice-oss/guli-microservice-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-microservice-statistics/guli-microservice-statistics.iml" filepath="$PROJECT_DIR$/guli-microservice-statistics/guli-microservice-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-microservice-sysuser/guli-microservice-sysuser.iml" filepath="$PROJECT_DIR$/guli-microservice-sysuser/guli-microservice-sysuser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-microservice-ucenter/guli-microservice-ucenter.iml" filepath="$PROJECT_DIR$/guli-microservice-ucenter/guli-microservice-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli-microservice-vod/guli-microservice-vod.iml" filepath="$PROJECT_DIR$/guli-microservice-vod/guli-microservice-vod.iml" />
     </modules>
   </component>
 </project>

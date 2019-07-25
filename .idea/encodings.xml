@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/guli-commonservice-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guli-framework-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guli-framework-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guli-microservice-edu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-microservice-oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-microservice-statistics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-microservice-sysuser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-microservice-ucenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli-microservice-vod" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
