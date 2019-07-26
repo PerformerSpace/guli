@@ -4,16 +4,20 @@ import com.aliyun.vod.upload.impl.UploadVideoImpl;
 import com.aliyun.vod.upload.req.UploadStreamRequest;
 import com.aliyun.vod.upload.resp.UploadStreamResponse;
 import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
 import com.guli.common.constants.ResultCodeEnum;
 import com.guli.common.exception.GuliException;
 import com.guli.vod.service.VideoService;
 import com.guli.vod.util.AliyunVodSDKUtils;
 import com.guli.vod.util.ConstantPropertiesUtil;
+import com.guli.vod.util.DeleteVideoUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.io.InputStream;
+
+import static com.guli.vod.util.AliyunVodSDKUtils.initVodClient;
 
 @Service
 public class VideoServiceImpl implements VideoService {
@@ -48,5 +52,22 @@ public class VideoServiceImpl implements VideoService {
         }
 
         return videoId;
+    }
+
+    @Override
+    public void removeVideo(String videoId) {
+
+        DeleteVideoResponse response = null;
+        DefaultAcsClient client = null;
+        try {
+            client = initVodClient(ConstantPropertiesUtil.ACCESS_KEY_ID, ConstantPropertiesUtil.ACCESS_KEY_SECRET);
+            response = new DeleteVideoResponse();
+
+            response = DeleteVideoUtil.deleteVideo(videoId,client);
+            System.out.print("RequestId = " + response.getRequestId() + "\n");
+        } catch (Exception e) {
+            throw new GuliException(ResultCodeEnum.VIDEO_DELETE_ALIYUN_ERROR);
+        }
+
     }
 }

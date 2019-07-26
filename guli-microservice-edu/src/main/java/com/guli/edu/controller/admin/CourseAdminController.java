@@ -73,7 +73,7 @@ public class CourseAdminController {
     @GetMapping("/{page}/{limit}")
     public R pageQuery(
             @ApiParam(name = "page", value = "当前页码", required = true)
-                           @PathVariable Long page,
+                            @PathVariable Long page,
 
             @ApiParam(name = "limit", value = "每页记录数", required = true)
                            @PathVariable Long limit,

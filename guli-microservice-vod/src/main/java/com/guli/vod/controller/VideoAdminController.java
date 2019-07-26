@@ -28,4 +28,12 @@ public class VideoAdminController {
         return R.ok().message("视频上传成功").data("videoId", videoId);
     }
 
+    @DeleteMapping("{videoId}")
+    public R removeVideo(
+            @ApiParam(name="videoId", value="阿里云视频id", required = true)
+            @PathVariable String videoId){
+        videoService.removeVideo(videoId);
+        return R.ok().message("视频删除成功");
+    }
+
 }
