@@ -7,6 +7,7 @@ import com.guli.edu.entity.Course;
 import com.guli.edu.entity.CourseQuery;
 import com.guli.edu.form.CourseInfoForm;
 import com.guli.edu.service.CourseService;
+import com.guli.edu.vo.CoursePublishVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -97,6 +98,26 @@ public class CourseAdminController {
 
         courseService.removeCourseById(id);
 
+        return R.ok();
+    }
+
+    @ApiOperation(value = "根据ID获取课程发布信息")
+    @GetMapping("course-publish-info/{id}")
+    public R getCoursePublishVoById(
+            @ApiParam(name = "id", value = "课程ID", required = true)
+            @PathVariable String id){
+
+        CoursePublishVo courseInfoForm = courseService.getCoursePublishVoById(id);
+        return R.ok().data("item", courseInfoForm);
+    }
+
+    @ApiOperation(value = "根据id发布课程")
+    @PutMapping("publish-course/{id}")
+    public R publishCourseById(
+            @ApiParam(name = "id", value = "课程ID", required = true)
+            @PathVariable String id){
+
+        courseService.publishCourseById(id);
         return R.ok();
     }
 

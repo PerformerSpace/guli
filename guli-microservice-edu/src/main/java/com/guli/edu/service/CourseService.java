@@ -5,6 +5,7 @@ import com.guli.edu.entity.Course;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.guli.edu.entity.CourseQuery;
 import com.guli.edu.form.CourseInfoForm;
+import com.guli.edu.vo.CoursePublishVo;
 
 /**
  * <p>
@@ -30,4 +31,8 @@ public interface CourseService extends IService<Course> {
     void pageQuery(Page<Course> pageParam, CourseQuery courseQuery);
 
     void removeCourseById(String id);
+
+    CoursePublishVo getCoursePublishVoById(String id);
+
+    void publishCourseById(String id);
 }

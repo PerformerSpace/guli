@@ -11,6 +11,7 @@ import com.guli.edu.mapper.CourseMapper;
 import com.guli.edu.mapper.VideoMapper;
 import com.guli.edu.service.CourseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.guli.edu.vo.CoursePublishVo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -143,5 +144,20 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 
         //根据id删除课程
         baseMapper.deleteById(id);
+    }
+
+    @Override
+    public CoursePublishVo getCoursePublishVoById(String id) {
+
+        return baseMapper.selectCoursePublishVoById(id);
+    }
+
+    @Override
+    public void publishCourseById(String id) {
+
+        Course course = new Course();
+        course.setId(id);
+        course.setStatus(Course.COURSE_NORMAL);
+        baseMapper.updateById(course);
     }
 }
