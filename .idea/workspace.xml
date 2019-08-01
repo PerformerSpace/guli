@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74314793-5f65-446d-88e5-b417eb4cd5c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-commonservice-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-commonservice-eureka/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-commonservice-eureka/target/classes/com/guli/eureka/EurekaServerApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-commonservice-eureka/target/classes/logback-spring.xml" afterDir="false" />
@@ -21,6 +20,7 @@
       <change afterPath="$PROJECT_DIR$/guli-framework-parent/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-framework-parent/mvnw" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-framework-parent/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/CourseWebVo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-edu/target/classes/META-INF/guli-microservice-edu.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-edu/target/classes/application-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-edu/target/classes/application.properties" afterDir="false" />
@@ -79,7 +79,6 @@
       <change afterPath="$PROJECT_DIR$/guli-microservice-edu/target/classes/com/guli/edu/vo/VideoVo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-edu/target/classes/logback-spring.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-edu/target/test-classes/com/guli/edu/CodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-oss/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-oss/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-oss/target/classes/com/guli/aliyunoss/AliyunOssApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-oss/target/classes/com/guli/aliyunoss/config/Swagger2Config.class" afterDir="false" />
@@ -88,12 +87,6 @@
       <change afterPath="$PROJECT_DIR$/guli-microservice-oss/target/classes/com/guli/aliyunoss/service/impl/FileServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-oss/target/classes/com/guli/aliyunoss/util/ConstantPropertiesUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-oss/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/controller/DailyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/entity/Daily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/mapper/DailyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/mapper/xml/DailyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/service/DailyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/service/impl/DailyServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/target/classes/com/guli/statistics/StatisticsApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/target/classes/com/guli/statistics/client/UcenterClient.class" afterDir="false" />
@@ -108,26 +101,18 @@
       <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/target/classes/com/guli/statistics/service/impl/DailyServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/target/classes/logback-spring.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-statistics/target/test-classes/com/guli/statistics/CodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/src/main/java/com/guli/sysuser/SysuserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/src/main/java/com/guli/sysuser/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/src/main/java/com/guli/sysuser/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/src/main/java/com/guli/sysuser/entity/Sysuser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/src/main/resources/logback-spring.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/target/classes/com/guli/sysuser/SysuserApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/target/classes/com/guli/sysuser/config/Swagger2Config.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/target/classes/com/guli/sysuser/controller/SysUserController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/target/classes/com/guli/sysuser/entity/Sysuser.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-sysuser/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/mapper/MemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/mapper/xml/MemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/controller/api/WxApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/vo/LoginInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/test/java/com/guli/ucenter/Test1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/target/classes/com/guli/ucenter/UcenterApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/target/classes/com/guli/ucenter/config/MyBatisPlusConfig.class" afterDir="false" />
@@ -141,19 +126,32 @@
       <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/target/classes/com/guli/ucenter/service/impl/MemberServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/target/classes/logback-spring.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-ucenter/target/test-classes/com/guli/ucenter/CodeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/util/DeleteVideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/admin/VideoAdminController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/config/Swagger2Config.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/config/VodApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/controller/VideoAdminController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/service/VideoService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/service/impl/VideoServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/util/AliyunVodSDKUtils.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/util/ConstantPropertiesUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/com/guli/vod/util/DeleteVideoUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/guli-microservice-vod/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/CourseAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/CourseAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/xml/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/xml/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-ucenter/guli-microservice-ucenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-ucenter/guli-microservice-ucenter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-ucenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-ucenter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-ucenter/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoAdminController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/VideoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/impl/VideoServiceImpl.java" afterDir="false" />
     </list>
@@ -176,41 +174,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoAdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/VideoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/impl/VideoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -221,29 +185,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FETCH_PLAYAUTH_ERROR</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/config/MyBatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/SubjectAdminController.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/EduApplication.java" />
-        <option value="$PROJECT_DIR$/guli-commonservice-eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/pom.xml" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/StatisticsApplication.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/client/UcenterClient.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/controller/admin/DailyController.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/controller/admin/DailyAdminController.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/service/DailyService.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-statistics/src/main/java/com/guli/statistics/service/impl/DailyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/form/CourseInfoForm.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/entity/CourseDescription.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/entity/Course.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/CourseController.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-oss/src/main/java/com/guli/aliyunoss/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseDescriptionMapper.java" />
         <option value="$PROJECT_DIR$/guli-framework-common/src/main/java/com/guli/common/constants/ResultCodeEnum.java" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/entity/CourseQuery.java" />
         <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/resources/application.properties" />
@@ -266,18 +218,35 @@
         <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/VideoServiceImpl.java" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/SubjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/CoursePublishVo.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseMapper.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/xml/CourseMapper.xml" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/CourseServiceImpl.java" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/pom.xml" />
         <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/CourseAdminController.java" />
         <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/util/deleteVideoUtil.java" />
         <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/util/DeleteVideoUtil.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/CourseWebVo.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseMapper.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/xml/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/TeacherService.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/TeacherServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/TeacherController.java" />
         <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoAdminController.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/VideoService.java" />
         <option value="$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/ConstantPropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/vo/LoginInfoVo.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/controller/api/WxApiController.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/test/java/com/guli/ucenter/Test1.java" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/src/test/java/com/guli/ucenter/SaleTicket.java" />
       </list>
     </option>
   </component>
@@ -296,23 +265,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="guli-microservice-vod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="guli-microservice-vod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="8" />
+    <option name="x" value="22" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -323,18 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="guli" type="58d84e3e:PackageViewProjectNode" />
-              <item name="guli-commonservice-eureka" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,6 +292,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guli" type="58d84e3e:PackageViewProjectNode" />
+              <item name="guli-commonservice-eureka" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,7 +316,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/guli-microservice-vod/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -376,13 +334,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.guli.ucenter.util" />
       <recent name="com.guli.vod.util" />
       <recent name="com.guli.vod.config" />
       <recent name="com.guli.edu.controller.admin" />
       <recent name="com.guli.statistics.controller.admin" />
-      <recent name="com.guli.statistics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\maven_program\guli\guli-microservice-ucenter\src\main\java\com\guli\ucenter\util" />
       <recent name="D:\maven_program\guli\guli-microservice-vod\src\main\resources" />
       <recent name="D:\maven_program\guli\guli-microservice-statistics\src\main\java\com\guli\statistics" />
       <recent name="D:\maven_program\guli\guli-microservice-statistics\src\main\resources" />
@@ -400,34 +359,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.VodApplication">
-    <configuration name="CodeGenerator.genCode (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guli-microservice-statistics" />
+  <component name="RunManager" selected="Application.SaleTicket">
+    <configuration name="SaleTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guli.ucenter.SaleTicket" />
+      <module name="guli-microservice-ucenter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guli.statistics.*" />
+          <option name="PATTERN" value="com.guli.ucenter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.guli.statistics" />
-      <option name="MAIN_CLASS_NAME" value="com.guli.statistics.CodeGenerator" />
-      <option name="METHOD_NAME" value="genCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guli-microservice-ucenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guli.ucenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guli.ucenter" />
+      <option name="MAIN_CLASS_NAME" value="com.guli.ucenter.Test1" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeGenerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guli-microservice-edu" />
+    <configuration name="Test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guli-microservice-ucenter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guli.edu.*" />
+          <option name="PATTERN" value="com.guli.ucenter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.guli.edu" />
-      <option name="MAIN_CLASS_NAME" value="com.guli.edu.CodeGenerator" />
-      <option name="METHOD_NAME" value="genCode" />
+      <option name="PACKAGE_NAME" value="com.guli.ucenter" />
+      <option name="MAIN_CLASS_NAME" value="com.guli.ucenter.Test1" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -477,19 +449,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="guli-microservice-statistics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guli.statistics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guli.statistics.StatisticsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SysuserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="guli-microservice-sysuser" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guli.sysuser.SysuserApplication" />
@@ -518,8 +477,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CodeGenerator.genCode" />
-      <item itemvalue="JUnit.CodeGenerator.genCode (1)" />
       <item itemvalue="Spring Boot.EurekaServerApplication0" />
       <item itemvalue="Spring Boot.EurekaServerApplication1" />
       <item itemvalue="Spring Boot.EurekaServerApplication2" />
@@ -527,16 +484,18 @@
       <item itemvalue="Spring Boot.SysuserApplication" />
       <item itemvalue="Spring Boot.UcenterApplication" />
       <item itemvalue="Spring Boot.EduApplication" />
-      <item itemvalue="Spring Boot.StatisticsApplication" />
       <item itemvalue="Spring Boot.VodApplication" />
+      <item itemvalue="JUnit.Test1.test1" />
+      <item itemvalue="JUnit.Test1.test2" />
+      <item itemvalue="Application.SaleTicket" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.VodApplication" />
+        <item itemvalue="Application.SaleTicket" />
+        <item itemvalue="JUnit.Test1.test2" />
+        <item itemvalue="JUnit.Test1.test1" />
         <item itemvalue="Spring Boot.EduApplication" />
-        <item itemvalue="Spring Boot.StatisticsApplication" />
-        <item itemvalue="JUnit.CodeGenerator.genCode (1)" />
-        <item itemvalue="JUnit.CodeGenerator.genCode" />
+        <item itemvalue="Spring Boot.VodApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -558,7 +517,10 @@
       <workItem from="1563611239119" duration="5047000" />
       <workItem from="1563616531912" duration="6151000" />
       <workItem from="1563754608688" duration="16521000" />
-      <workItem from="1563841107969" duration="39675000" />
+      <workItem from="1563841107969" duration="40243000" />
+      <workItem from="1564189294607" duration="9492000" />
+      <workItem from="1564359901272" duration="651000" />
+      <workItem from="1564385694475" duration="22383000" />
     </task>
     <task id="LOCAL-00001" summary="谷粒学院继续整合">
       <created>1564039422297</created>
@@ -574,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564112535169</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="谷粒学院继续整合3">
+      <created>1564147045169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564147045169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -584,9 +553,24 @@
     <history-entry file="CodeGenerator_genCode_(1) - 2019.07.20 at 16h 50m 00s.xml">
       <configuration name="CodeGenerator.genCode (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test1_test1 - 2019.07.31 at 14h 14m 03s.xml">
+      <configuration name="Test1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test1 - 2019.07.31 at 14h 16m 11s.xml">
+      <configuration name="Test1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test2 - 2019.07.31 at 15h 21m 27s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test2 - 2019.07.31 at 15h 21m 55s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test2 - 2019.07.31 at 15h 22m 01s.xml">
+      <configuration name="Test1.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92344000" />
+    <option name="totallyTimeSpent" value="125438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +584,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -611,20 +595,20 @@
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32786885" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.49016392" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.8967213" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.6786885" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.3295082" />
-      <window_info anchor="bottom" id="JProfiler" order="14" />
-      <window_info anchor="bottom" id="Tail" order="15" />
-      <window_info anchor="bottom" id="Run" order="16" weight="0.8852459" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.18852459" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.49016392" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.8967213" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.53770494" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3295082" />
+      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Run" order="15" weight="0.57213116" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Maven" order="0" weight="0.32753405" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -665,198 +649,32 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="谷粒学院继续整合" />
     <MESSAGE value="谷粒学院继续整合2" />
-    <option name="LAST_COMMIT_MESSAGE" value="谷粒学院继续整合2" />
+    <MESSAGE value="谷粒学院继续整合3" />
+    <option name="LAST_COMMIT_MESSAGE" value="谷粒学院继续整合3" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/util/ConstantPropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/config/VodApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-sdk-vod-upload/1.4.5/aliyun-sdk-vod-upload-1.4.5.jar!/com/aliyun/vod/upload/impl/UploadVideoImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.5/mybatis-plus-extension-3.0.5-sources.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1789">
-          <caret line="214" column="19" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
-          <folding>
-            <element signature="e#7406#7407#0" expanded="true" />
-            <element signature="e#7473#7474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/VideoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/ChapterMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/entity/Chapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/ChapterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/ChapterVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/VideoVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/ChapterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/form/CourseInfoForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/form/VideoInfoForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/ChapterAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.5/mybatis-plus-core-3.0.5-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="178" column="53" lean-forward="true" selection-start-line="178" selection-start-column="53" selection-end-line="178" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-framework-parent/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/SubjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/VideoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -873,11 +691,6 @@
     <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guli-commonservice-eureka/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -885,13 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/xml/CourseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -913,13 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-framework-common/src/main/java/com/guli/common/constants/ResultCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -947,27 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/TeacherServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="6" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/CourseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="51" column="67" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/CourseAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guli-microservice-oss/src/main/java/com/guli/aliyunoss/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -979,13 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1026,27 +797,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/VideoService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/Util.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="74">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/impl/VideoServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.5/mybatis-plus-extension-3.0.5-sources.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        <state relative-caret-position="326">
+          <caret line="151" column="28" lean-forward="true" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="28" />
+          <folding>
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/CourseWebVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1108">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoAdminController.java">
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/admin/CourseAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="-985">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/xml/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/TeacherServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+          <folding>
+            <element signature="e#2314#2330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="69" />
+          <folding>
+            <element signature="e#991#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/mapper/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="51" column="53" lean-forward="true" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+          <folding>
+            <element signature="e#6440#6448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/admin/VideoAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-framework-common/src/main/java/com/guli/common/exception/GuliException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-edu/src/main/java/com/guli/edu/vo/VideoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-vod/src/main/java/com/guli/vod/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="141" column="56" selection-start-line="141" selection-start-column="56" selection-end-line="141" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-framework-common/src/main/java/com/guli/common/constants/ResultCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/ConstantPropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#362#1" expanded="true" />
+            <element signature="e#402#425#1" expanded="true" />
+            <element signature="e#469#494#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/vo/LoginInfoVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/util/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/main/java/com/guli/ucenter/controller/api/WxApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="832" column="5" lean-forward="true" selection-start-line="832" selection-start-column="5" selection-end-line="832" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/test/java/com/guli/ucenter/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-microservice-ucenter/src/test/java/com/guli/ucenter/SaleTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

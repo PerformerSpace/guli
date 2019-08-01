@@ -15,4 +15,11 @@ public interface MemberService extends IService<Member> {
 
     Integer countRegisterByDay(String day);
 
+    /**
+     * 根据openid返回用户信息
+     * @param openid
+     * @return
+     */
+    Member getByOpenid(String openid);
+
 }

@@ -4,7 +4,8 @@ import com.aliyun.vod.upload.impl.UploadVideoImpl;
 import com.aliyun.vod.upload.req.UploadStreamRequest;
 import com.aliyun.vod.upload.resp.UploadStreamResponse;
 import com.aliyuncs.DefaultAcsClient;
-import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.vod.model.v20170321.*;
 import com.guli.common.constants.ResultCodeEnum;
 import com.guli.common.exception.GuliException;
 import com.guli.vod.service.VideoService;
@@ -69,5 +70,76 @@ public class VideoServiceImpl implements VideoService {
             throw new GuliException(ResultCodeEnum.VIDEO_DELETE_ALIYUN_ERROR);
         }
 
+    }
+
+    @Override
+    public CreateUploadVideoResponse getUploadAuthAndAddress(String title, String fileName) {
+
+        try {
+            //初始化
+            DefaultAcsClient client = AliyunVodSDKUtils.initVodClient(
+                    ConstantPropertiesUtil.ACCESS_KEY_ID,
+                    ConstantPropertiesUtil.ACCESS_KEY_SECRET);
+
+            //创建请求对象
+            CreateUploadVideoRequest request = new CreateUploadVideoRequest();
+            request.setTitle(title);
+            request.setFileName(fileName);
+
+            //获取响应
+            CreateUploadVideoResponse response = client.getAcsResponse(request);
+
+            return response;
+
+        } catch (ClientException e) {
+            throw new GuliException(ResultCodeEnum.REFRESH_VIDEO_PLAYAUTH_ERROR);
+        }
+    }
+
+    @Override
+    public RefreshUploadVideoResponse refreshUploadAuthAndAddress(String videoId) {
+
+        try {
+            //初始化
+            DefaultAcsClient client = AliyunVodSDKUtils.initVodClient(
+                    ConstantPropertiesUtil.ACCESS_KEY_ID,
+                    ConstantPropertiesUtil.ACCESS_KEY_SECRET);
+
+            //创建请求对象
+            RefreshUploadVideoRequest request = new RefreshUploadVideoRequest();
+            request.setVideoId(videoId);
+
+            //获取响应
+            RefreshUploadVideoResponse response = client.getAcsResponse(request);
+
+            return response;
+
+        } catch (ClientException e) {
+            throw new GuliException(ResultCodeEnum.REFRESH_VIDEO_PLAYAUTH_ERROR);
+        }
+    }
+
+    @Override
+    public String getVideoPlayAuth(String videoId) {
+        DefaultAcsClient client = null;
+        try {
+            client = AliyunVodSDKUtils.initVodClient(
+                    ConstantPropertiesUtil.ACCESS_KEY_ID,
+                    ConstantPropertiesUtil.ACCESS_KEY_SECRET);
+
+            //请求
+            GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
+            request.setVideoId(videoId);
+
+            //响应
+            GetVideoPlayAuthResponse response = client.getAcsResponse(request);
+
+            //得到播放凭证
+            String playAuth = response.getPlayAuth();
+
+            return playAuth;
+        } catch (ClientException e) {
+            throw new GuliException(ResultCodeEnum.REFRESH_VIDEO_PLAYAUTH_ERROR);
+        }
     }
 }
